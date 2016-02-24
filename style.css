@@ -53,10 +53,12 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
   text-align: center;
-  
+  }
 
-
-}
+  .text{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 .day {
   background-color: white
 
@@ -72,13 +74,15 @@ body {
   font-weight: 800;
   padding: 12px 0;
   width: 280px;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   display: block;
   margin: 0 auto;
 }
 a {
-  text-decoration: none
+  text-decoration: none;
+  color: #95AEAB;
+
 }
 
 .container{
@@ -90,6 +94,13 @@ video{
 margin-left: 3%
 }
 
+h2{
+  text-align: left;
+  font-size: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
 
 @media only screen and (max-width: 768px) {
   body {
